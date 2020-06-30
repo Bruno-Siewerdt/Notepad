@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco De Notas</title>
+    <link rel="stylesheet" href="BlocoDeNotas.css">
+</head>
+<body id="body">
+    <article id="esquerda">
+        <nav id="menu">
+            <ul>
+                <li><a href="#" name="links" onclick="submenu3()">Ajuda</a></li>
+                    <nav id="submenu3"  class="submenus" name="Submenus">
+                        <ul>
+                            <li><a href="#" class="botao2" name="links">{} para Itálico</a></li>
+                            <li><a href="#" class="botao2" name="links">[] para Negrito</a></li>
+                        </ul>
+                    </nav>
+
+                <li><a href="#" name="links" onclick="submenu4()">Arquivos</a></li>
+                    <nav id="submenu4"  class="submenus" name="Submenus">
+                        <ul id="arquivos">
+                        </ul>
+                    </nav>
+
+                <li><a href="#" name="links" onclick="submenu5()">Salvar</a></li>
+                    <nav id="submenu5" class="submenus" name="Submenus">
+                        <input type="text" id="inputSalvar">
+                        <input type="button" value="Salvar" onclick="salvarArquivo()" class="botao" id="botaoSalvar">
+                    </nav>
+
+                <li><a href="#" onclick="submenu2()" name="links">Predefinições</a>
+                    <nav id="submenu2" class="submenus" name="Submenus">
+                        <ul>
+                            <li><a href="#" onclick="modoDia()" class="botao2" name="links">• Modo Dia</a></li>
+                            <li><a href="#" onclick="modoNoturno()" class="botao2" name="links">• Modo Noturno</a></li>
+                        </ul>
+                    </nav>
+                </li>
+
+                <li><a href="#" onclick="submenu()" name="links">Personalizar</a>
+                    <nav id="submenu" name="Submenus">
+                        <ul>
+                            <li><a href="#" class="botao2" name="links">• Mudar Cor de Fundo</a>
+                                <nav class="personalizavel">
+                                    <input type="color" id="corFundo" value="#ffffff">
+                                    <input type="button" value="Definir" onclick="corDeFundo()">
+                                </nav></li>
+                            <li><a href="#" class="botao2" name="links">• Mudar a Letra</a>
+                                <nav class="personalizavel">
+                                    <span class="SeiLa">Cor: </span><input type="color" id="corLetra"><br>
+                                    <span class="SeiLa">Tamanho: </span><input type="number" id="tamanhoFonte" value="22">
+                                    <input type="button" value="Definir" onclick="mudarTexto()">
+                                </nav></li>
+                            <li><a href="#" class="botao2" name="links">• Definir Fonte</a>
+                                <nav class="personalizavel">
+                                    <select id="fontes">
+                                        <option value="Arial" id="Arial">Arial</option>
+                                        <option value="Times" id="Times">Times New Roman</option>
+                                        <option value="Caviar" id="Caviar">Caviar Dreams</option>
+                                        <option value="Champagne" id="Champagne">Champagne & Limousine</option>
+                                        <option value="Sunflower" id="Sunflower">Sunflower</option>
+                                        <option value="Bosque" id="Bosque">BOSQUE</option>
+                                        <option value="Brightly" id="Brightly">Brightly Crush Shine</option>
+                                        <option value="Sketch" id="Sketch">Sketch 3D</option>
+                                        <option value="Varsity" id="Varsity">Varsity</option>
+                                        <option value="Alice" id="Alice">Alice in Wonderland</option>
+                                        <option value="Avenger" id="Avenger">AVENGEANCE HEROES AVENGER</option>
+                                        <option value="Better" id="Better">Better Together</option>
+                                        <option value="Halloween" id="Halloween">HALLOWEEN</option>
+                                        <option value="Cookies" id="Cookies">Cheese Cookies</option>
+                                        <option value="Natal" id="Natal">Christmas</option>
+                                        <option value="Cubic" id="Cubic">Cubic</option>
+                                        <option value="February" id="February">February</option>
+                                        <option value="Flakes" id="Flakes">Flakes</option>
+                                        <option value="Birthday" id="Birthday">Birthday</option>
+                                        <option value="Harry" id="Harry">Harry Potter</option>
+                                        <option value="Hello" id="Hello">Hello</option>
+                                        <option value="Infected" id="Infected">INFECTED</option>
+                                        <option value="JMH" id="JMH">JMH</option>
+                                        <option value="Kashima" id="Kashima">Kashima</option>
+                                        <option value="KGA" id="KGA">Little Swagg</option>
+                                        <option value="LFL" id="LFL">Letters For Learners</option>
+                                        <option value="Lion" id="Lion">Lion kinG</option>
+                                        <option value="Love" id="Love">Love Story</option>
+                                        <option value="Mine" id="Mine">Minecrafter</option>
+                                        <option value="London" id="London">Old London</option>
+                                        <option value="Roman" id="Roman">Roman</option>
+                                        <option value="SketchB" id="SketchB">Sketch Block</option>
+                                        <option value="Saloon" id="Saloon">The Dead Saloon</option>
+                                        <option value="Transformers" id="Transformers">Transformers</option>
+                                        <option value="White" id="White">White on Black</option>
+                                        <option value="Sega" id="Sega">Sega</option>
+                                    </select>
+                                    <input type="button" value="Definir" onclick="Fonte()">
+                                </nav>
+                            </li>
+                        </ul>
+                    </nav>
+                </li>
+            </ul>
+        </nav>
+    </article>
+    <article id="principal">
+        <div id="centralizar">
+            <ul id="tarefas">
+            </ul>
+            <div id="inputs">
+                <input type="text" id="tarefa" placeholder="Digite uma Tarefa">
+                <input type="button" id="botao" value="Adicionar" onclick="addTodo()" >
+            </div>
+        </div>
+    </article>
+    <script src="BlocoDeNotas.js"></script>
+</body>
+</html>

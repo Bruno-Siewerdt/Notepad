@@ -1,0 +1,457 @@
+@font-face {
+    font-family: 'Caviar';
+    src: url(fonte/CaviarDreams.ttf);
+}
+
+option#Caviar {
+    font-family: 'Caviar';
+}
+
+@font-face {
+    font-family: 'Champagne';
+    src: url(fonte/Champagne\ &\ Limousines.ttf);
+}
+
+option#Champagne {
+    font-family: 'Champagne';
+}
+
+@font-face {
+    font-family: 'Bosque';
+    src: url(fonte/BOSQUE.ttf);
+}
+
+option#Bosque {
+    font-family: 'Bosque';
+}
+
+@font-face {
+    font-family: 'Sunflower';
+    src: url(fonte/MADE\ Sunflower\ PERSONAL\ USE.otf);
+}
+
+option#Sunflower {
+    font-family: 'Sunflower';
+}
+
+@font-face {
+    font-family: 'Sketch';
+    src: url(fonte/Sketch\ 3D.otf);
+}
+
+option#Sketch {
+    font-family: 'Sketch';
+}
+
+@font-face {
+    font-family: 'Brightly';
+    src: url(fonte/Brightly\ Crush\ Shine.otf);
+}
+
+option#Brightly {
+    font-family: 'Brightly';
+}
+
+@font-face {
+    font-family: 'Varsity';
+    src: url(fonte/varsity_regular.ttf);
+}
+
+option#Varsity {
+    font-family: 'Varsity';
+}
+
+@font-face {
+    font-family: 'Alice';
+    src: url(fonte/Alice_in_Wonderland_3.ttf);
+}
+
+option#Alice {
+    font-family: 'Alice';
+}
+
+@font-face {
+    font-family: 'Avenger';
+    src: url(fonte/AVENGEANCE\ HEROIC\ AVENGER.otf);
+}
+option#Avenger {
+    font-family: 'Avenger';
+}
+
+@font-face {
+    font-family: 'Better';
+    src: url(fonte/Better\ Together\ Script.ttf);
+}
+
+option#Better {
+    font-family: 'Better';
+}
+
+@font-face {
+    font-family: 'Halloween';
+    src: url(fonte/CFHalloween-Regular.ttf);
+}
+
+option#Halloween {
+    font-family: 'Halloween';
+}
+
+@font-face {
+    font-family: 'Cookies';
+    src: url(fonte/Cheese\ Cookies.ttf);
+}
+
+option#Cookies {
+    font-family: 'Cookies';
+}
+
+@font-face {
+    font-family: 'Natal';
+    src: url(fonte/Christmas.ttf);
+}
+
+option#Natal {
+    font-family: 'Natal';
+}
+
+@font-face {
+    font-family: 'Cubic';
+    src: url(fonte/cubic.ttf);
+}
+
+option#Cubic {
+    font-family: 'Cubic';
+}
+
+@font-face {
+    font-family: 'February';
+    src: url(fonte/February.ttf);
+}
+
+option#February {
+    font-family: 'February';
+}
+
+@font-face {
+    font-family: 'Flakes';
+    src: url(fonte/Flakes.ttf);
+}
+
+option#Flakes {
+    font-family: 'Flakes';
+}
+
+@font-face {
+    font-family: 'Birthday';
+    src: url(fonte/HappyBirthday-Regular.ttf);
+}
+
+option#Birthday {
+    font-family: 'Birthday';
+}
+
+@font-face {
+    font-family: 'Harry';
+    src: url(fonte/HARRYP__.TTF);
+}
+
+option#Harry {
+    font-family: 'Harry';
+}
+
+@font-face {
+    font-family: 'Hello';
+    src: url(fonte/Hello.otf);
+}
+
+option#Hello {
+    font-family: 'Hello';
+}
+
+@font-face {
+    font-family: 'Infected';
+    src: url(fonte/INFECTED.ttf);
+}
+
+option#Infected {
+    font-family: 'Infected';
+}
+
+@font-face {
+    font-family: 'JMH';
+    src: url(fonte/JMH\ Typewriter.ttf);
+}
+
+option#JMH {
+    font-family: 'JMH';
+}
+
+@font-face {
+    font-family: 'Kashima';
+    src: url(fonte/Kashima\ Demo.otf);
+}
+
+option#Kashima {
+    font-family: 'Kashima';
+}
+
+@font-face {
+    font-family: 'KGA';
+    src: url(fonte/KGALittleSwag.ttf);
+}
+
+option#KGA {
+    font-family: 'KGA';
+}
+
+@font-face {
+    font-family: 'LFL';
+    src: url(fonte/Letters\ for\ Learners.ttf);
+}
+
+option#LFL {
+    font-family: 'LFL';
+}
+
+@font-face {
+    font-family: 'Lion';
+    src: url(fonte/lion_king.ttf);
+}
+
+option#Lion {
+    font-family: 'Lion';
+}
+
+@font-face {
+    font-family: 'Love';
+    src: url(fonte/Love\ Story\ Rough.ttf);
+}
+
+option#Love {
+    font-family: 'Love';
+}
+
+@font-face {
+    font-family: 'Mine';
+    src: url(fonte/Minecrafter.Alt.ttf);
+}
+
+option#Mine {
+    font-family: 'Mine';
+}
+
+@font-face {
+    font-family: 'London';
+    src: url(fonte/OldLondon.ttf);
+}
+
+option#London {
+    font-family: 'London';
+}
+
+@font-face {
+    font-family: 'Roman';
+    src: url(fonte/Roman\ SD.ttf);
+}
+
+option#Roman {
+    font-family: 'Roman';
+}
+
+@font-face {
+    font-family: 'SketchB';
+    src: url(fonte/Sketch_Block.ttf);
+}
+
+option#SketchB {
+    font-family: 'SketchB';
+}
+
+@font-face {
+    font-family: 'Saloon';
+    src: url(fonte/thedeadsaloon-Regular.ttf);
+}
+
+option#Saloon {
+    font-family: 'Saloon';
+}
+
+@font-face {
+    font-family: 'Transformers';
+    src: url(fonte/Transformers\ Movie.ttf);
+}
+
+option#Transformers {
+    font-family: 'Transformers';
+}
+
+@font-face {
+    font-family: 'White';
+    src: url(fonte/White\ On\ Black.ttf);
+}
+
+option#White {
+    font-family: 'White';
+}
+
+@font-face {
+    font-family: 'Sega';
+    src: url(fonte/SEGA.TTF);
+}
+
+option#Sega {
+    font-family: 'Sega';
+}
+
+option#Arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+option#Times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+select#fontes {
+    font-size: 12pt;
+    width: 218px;
+}
+
+article#esquerda {
+    display: block;
+    float: left;
+    width: 200px;
+    padding: 10px 15px 0px 10px;
+    text-align: justify;
+    margin: -50px 15px -8px -8px;
+    font-size: 17pt;
+    font-family: 'Caviar';
+    height: 635px;
+    background-color: #cccccc;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+input {
+    font-size: 12pt;
+}
+
+nav#menu ul{
+    list-style: none;
+    margin-left: -50px;
+}
+
+nav#menu li {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-top: -1px;
+    width: 200px;
+}
+
+nav#menu a {
+    text-decoration: none;
+    padding: 10px 0px 10px 20px;
+    color: black;
+}
+
+article#principal {
+    padding-left: 400px;
+    padding-top: 180px;
+}
+
+nav#submenu {
+    display: none;
+    padding: 10px 15px 10px 15px;
+    width: 195px;
+    background-color: #bababa;
+}
+
+.botao2 {
+    height: 40px;
+    width: 210px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+article#principal {
+    margin-top: 5px;
+    font-size: 22pt;
+    font-family: 'LFL';
+}
+
+ul#tarefas {
+    list-style: none;
+}
+
+ul#tarefas li {
+    width: 600px;
+}
+
+div#inputs {
+    margin-left: 100px;
+    vertical-align: middle;
+}
+
+ul#tarefas input {
+    height: 18px;
+    width: 18px;
+}
+
+input#tamanhoFonte {
+    width: 40px;
+}
+
+.SeiLa {
+    font-size: 15pt;
+}
+
+nav#submenu2 {
+    display: none;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+input#botao {
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    background-color: #cccccc;
+}
+
+input#tarefa {
+    width: 400px;
+    height: 30px;
+    font-size: 15pt;
+    border-radius: 15px;
+    border: 1px solid #616161;
+    text-align: center;
+}
+
+nav#submenu3 {
+    display: none;
+    margin-left: 13px;
+}
+
+nav.submenus {
+    background-color: #bababa;
+    width: 222px;
+    position: relative;
+    left: -10px;
+}
+
+nav#submenu4 {
+    display: none;
+    margin-left: 13px;
+}
+
+nav#submenu5 {
+    display: none;
+    margin-left: 13px;
+    text-align: center;
+}
+
+input#inputSalvar {
+    text-align: center;
+}
